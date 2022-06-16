@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400&display=swap');
+
+* {
+    margin: auto;
+}
+
+a {
+    border: groove 1px red;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+body {
+
+    background-color: hsl(0, 0%, 95%);
+}
+
+.primarycontainer {
+    width: 60%;
+    height: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    margin: 30px;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.head {
+    color: hsl(0, 0%, 95%);
+    font-variant: small-caps;
+    font-size: 15px;
+    margin: 30px;
+}
+
+.body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 30px;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 4px 0px 0px 4px;
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 4px 4px 0px;
+}
+
+.learn-sedan {
+    border: hsl(0, 0%, 95%) solid;
+    border-radius: 25px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    padding: 8px 16px 8px 16px;
+    margin: 30px;
+}
+
+.learn-suv {
+    border: hsl(0, 0%, 95%) solid;
+    border-radius: 25px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    padding: 8px 16px 8px 16px;
+    margin: 30px;
+}
+
+.learn-luxury {
+    border: hsl(0, 0%, 95%) solid;
+    border-radius: 25px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    padding: 8px 16px 8px 16px;
+    margin: 30px;
+}
+
+.learn-sedan:hover {
+    border-radius: 25px;
+    padding: 8px 16px 8px 16px;
+    cursor: pointer;
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    margin: 30px;
+}
+
+.learn-suv:hover {
+    border-radius: 25px;
+    padding: 8px 16px 8px 16px;
+    cursor: pointer;
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    margin: 30px;
+}
+
+.learn-luxury:hover {
+    border-radius: 25px;
+    padding: 8px 16px 8px 16px;
+    cursor: pointer;
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    margin: 30px;
+}
