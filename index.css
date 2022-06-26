@@ -28,15 +28,12 @@ img {
     margin: 30px;
 }
 
-h2 {
-    font-family: 'Big Shoulders Display', cursive;
-}
-
 .head {
     color: hsl(0, 0%, 95%);
     font-variant: small-caps;
-    font-size: 15px;
-    margin: 30px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 50px;
+    margin: 0 30px 30px 30px;
 }
 
 .body {
@@ -65,6 +62,7 @@ h2 {
     border-radius: 25px;
     background-color: hsl(0, 0%, 95%);
     color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
     padding: 8px 16px 8px 16px;
     margin: 30px;
 }
@@ -74,6 +72,7 @@ h2 {
     border-radius: 25px;
     background-color: hsl(0, 0%, 95%);
     color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
     padding: 8px 16px 8px 16px;
     margin: 30px;
 }
@@ -83,6 +82,7 @@ h2 {
     border-radius: 25px;
     background-color: hsl(0, 0%, 95%);
     color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
     padding: 8px 16px 8px 16px;
     margin: 30px;
 }
@@ -93,6 +93,7 @@ h2 {
     cursor: pointer;
     background-color: hsl(31, 77%, 52%);
     color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
     margin: 30px;
 }
 
@@ -102,6 +103,7 @@ h2 {
     cursor: pointer;
     background-color: hsl(184, 100%, 22%);
     color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
     margin: 30px;
 }
 
@@ -111,5 +113,6 @@ h2 {
     cursor: pointer;
     background-color: hsl(179, 100%, 13%);
     color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
     margin: 30px;
 }
